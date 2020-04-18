@@ -1,0 +1,11 @@
+{
+  "appId": "ro.fiipractic.eattogether",
+  "appName": "eat-together",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "build",
+  "cordova": {},
+  "server": {
+    "url": "http://192.168.0.106:8100"
+  }
+}

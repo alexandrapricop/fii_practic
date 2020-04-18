@@ -1,0 +1,7 @@
+{
+    "name": "eat-together",
+    "integrations": {
+        "capacitor": {}
+    },
+    "type": "react"
+}

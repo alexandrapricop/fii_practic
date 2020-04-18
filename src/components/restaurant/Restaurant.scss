@@ -1,0 +1,77 @@
+.restaurant__wrapper {
+    background-color: white;
+    position: absolute;
+    width: 100vw;
+    height: 0;
+    bottom: -200px;
+    z-index: 1000;
+    transition: 0.5s all;
+}
+
+.restaurant__wrapper--opened {
+    height: 100%;
+    bottom: 0;
+}
+
+.restaurant__close {
+    position: absolute;
+    bottom: 10px;
+    width: calc(100% - 30px);
+    --background: var(--color-app-logo-green);
+    --background-hover: var(--color-app-logo-green-darker);
+    --background-activated: var(--color-app-logo-green-darker);
+}
+
+.restaurant__close[data-platforms*=desktop] {
+    left: 50%;
+    transform: translateX(-50%);
+    width: 250px;
+    position: absolute;
+    bottom: 10px;
+}
+
+.restaurant__title {
+    font-size: 20px;
+    font-family: Roboto, sans-serif;
+    margin-bottom: 0;
+}
+
+.restaurant__description {
+    margin-top: 5px;
+    color: var(--color-app-logo-green);
+    opacity: .7;
+}
+
+.restaurant__all-details {
+    color: rgb(250, 94, 0);
+    text-align: center;
+    margin: 0;
+    text-transform: uppercase;
+    font-family: Roboto, sans-serif;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.restaurant__container{
+    padding: 40px 15px;
+    position: relative;
+    height: 100%;
+}
+
+.restaurant__container[data-platforms*=desktop] {
+    width: 500px;
+    margin: 0 auto;
+}
+
+.restaurant__image {
+    height: 150px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.restaurant__events {
+    height: 55%;
+    overflow: auto;
+}
+

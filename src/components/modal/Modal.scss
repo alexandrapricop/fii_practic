@@ -1,0 +1,48 @@
+.modal{
+    --min-height: 60vh;
+    --max-height: 80vh;
+    --max-width: 90vw;
+    --border-radius: 2px;
+    --background: var(--ion-color-success-shade);
+}
+
+.modal__button{
+    margin: 0px;
+    height: 50px;
+}
+
+.modal__content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100%;
+    padding: 2rem;
+}
+
+.modal__image{
+    min-width: 50%;
+    max-width: 100%;
+    width: 15em;
+}
+
+.modal__text{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+    margin: 0;
+}
+
+.modal__header{
+    font-size: 2em;
+}
+
+.modal__paragraph{
+    font-size: 1em;
+    margin: 0 0.5rem;
+    text-indent: 1rem;
+    color: var(--ion-color-light);
+}

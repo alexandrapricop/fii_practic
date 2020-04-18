@@ -1,0 +1,45 @@
+.sidemenu.md {
+    margin-top: var(--toolbar-padding-md);
+}
+
+.sidemenu.ios {
+    margin-top: calc(var(--toolbar-padding-ios) + env(safe-area-inset-top));
+    margin-bottom: env(safe-area-inset-bottom);
+}
+
+.sidemenu__header {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.sidemenu__name {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.sidemenu__signout {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    right: 10px;
+    --background: var(--color-app-logo-green);
+	--background-hover: var(--color-app-logo-green-darker);
+    --background-activated: var(--color-app-logo-green-darker);
+}
+
+.sidemenu__item--activated .item {
+    --color: white;
+    --background: var(--color-app-logo-green);
+	--background-hover: var(--color-app-logo-green-darker);
+    --background-activated: var(--color-app-logo-green-darker);
+}
+
+.sidemenu__separator {
+    background-color: #ccc;
+    width: 90%;
+    margin: 10px auto;
+}
